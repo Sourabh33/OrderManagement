@@ -1,14 +1,13 @@
-package com.app.BookingApp;
+package com.app.orderapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.util.UriComponentsBuilder;
 
 @SpringBootApplication
-public class BookingAppApplication {
+public class OrderManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookingAppApplication.class, args);
+		SpringApplication.run(OrderManagementApplication.class, args);
 	}
 
 }
